@@ -1,4 +1,4 @@
-import Head from '../utils/Head'
+import head from '../utils/head'
 import '../styles/globals.css'
 
 
@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   
   return (
       <div className=''>
-        <Head title="Al Watania Poultry"/>
+        <head title="Al Watania Poultry"/>
         <Component {...pageProps}   />    
       </div>
   )
